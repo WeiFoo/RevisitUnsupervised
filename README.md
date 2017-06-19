@@ -1,14 +1,17 @@
-# Revisit Unsupervised Effort-Aware Just-in-Time Defect prediction
+# Introduction
 
 
-This package is modified basd on the code provoided by Yang et al. [`` Effort-aware just-in-time defect prediction: Simple unsupervised models could be better than supervised models.''](https://cs.nju.edu.cn/yangyibiao/) 
+This is the repo to reproduce the results in Fu et al.
+[``Revisit Unsupervised Effort-Aware Just-in-Time Defect prediction'' ](https://arxiv.org/pdf/1703.00132.pdf). The package is modified basd on the code provoided by Yang et al. 
+
+[`` Effort-aware just-in-time defect prediction: Simple unsupervised models could be better than supervised models.''](https://cs.nju.edu.cn/yangyibiao/) 
 
 
 
 # Dependence
 
-* R
-* RWeka, car, usdm, effsize, ScottKnott packages are required. Please run the following commands.
+* R Environment
+* RWeka, car, usdm, effsize, ScottKnott packages are required. Please run the following commands in R.
 
 ```R
 	install.packages("RWeka")
@@ -21,6 +24,18 @@ This package is modified basd on the code provoided by Yang et al. [`` Effort-aw
 # Run
 ```
  source("exeMain.r")
+ 
+```
+
+
+# Reference
+```
+@inproceedings{fu2017revisiting,
+  title={Revisiting Unsupervised Learning for Defect Prediction},
+  author={Fu, Wei and Menzies, Tim},
+  booktitle={ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)},
+  year={2017}
+}
 ```
 # Folder Structure
 
@@ -44,9 +59,9 @@ This package is modified basd on the code provoided by Yang et al. [`` Effort-aw
     └── script_r
         ├── ReportResults.r
         ├── core.r
-        ├── evaluate.r
+        ├── evaluate.r 
         ├── exeMain.r  ## the start point of R code
-        ├── learner.r
+        ├── learner.r  ## learners are called here
         ├── packages
         │   ├── EMImputation1.0.1.zip
         │   ├── RBFNetwork1.0.8.zip
@@ -71,6 +86,7 @@ This package is modified basd on the code provoided by Yang et al. [`` Effort-aw
         │   ├── stackingC1.0.1.zip
         │   └── userClassifier1.0.3.zip
         ├── results
+        └── utils.R 
 ```
 
 
