@@ -30,11 +30,15 @@ This is the repo to reproduce the results in Fu et al.
 
 # Reference
 ```
-@inproceedings{fu2017revisiting,
-  title={Revisiting Unsupervised Learning for Defect Prediction},
-  author={Fu, Wei and Menzies, Tim},
-  booktitle={ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)},
-  year={2017}
+@inproceedings{fu2017unsupervised,
+ author = {Fu, Wei and Menzies, Tim},
+ title = {Revisiting Unsupervised Learning for Defect Prediction},
+ booktitle = {Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering},
+ series = {ESEC/FSE 2017},
+ year = {2017},
+ pages = {72--83},
+ numpages = {12},
+ publisher = {ACM}
 }
 ```
 # Folder Structure
